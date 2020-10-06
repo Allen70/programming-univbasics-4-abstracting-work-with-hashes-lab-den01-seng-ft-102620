@@ -11,7 +11,7 @@ end
 
 def update_counting_hash(hash, key)
   
-  if hash[key] == FALSE
+  if hash[key] == nil
      hash[key] = 1
     return hash
   else hash[key] > 0
